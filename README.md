@@ -1,16 +1,16 @@
-# KL-BSS: Neighbourhood selection/Support recovery/Variable selection in structural equation models (SEMs)
+# KL-BSS: Neighbourhood selection/Support recovery/Variable selection/Markov boundary learning in structural equation models (SEMs)
 
 This is a `python` implementation of the following paper:
 
 [1] Gao, M., Tai, W.M., Aragam, B. (2025). [KL-BSS: Rethinking optimality for neighbourhood selection in structural equation models](https://arxiv.org/abs/2306.02244)
 
 ## Requiments
-- Python
+- `Python`
 - `scipy`
 - `sklearn`
 - `itertools`
 - `gurobipy`
-- `random`
+- `random`/`igraph`/`networkx` (for graph simulation)
 - License of Gurobi is needed for mixed integer programming (MIP)
 
 ## Contents
