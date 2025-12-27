@@ -171,10 +171,3 @@ def simulate_data(G, n, s, betamin, betamax_SEM, betamin_SEM,
     return X, Y, S.tolist()
 
 
-
-def simulate_data_indep_covar(d,n,q,betamin,sigma_z,sigma=1):
-    X = np.random.randn(n*d).reshape(n,d)
-    X[:,q:] *= sigma_z
-    Y = X[:,:q].sum(axis=1) * betamin + np.random.randn(n) * sigma
-    return X, Y
-    

@@ -1,0 +1,1 @@
+- prediction.py	 :  experiments on genetics data to demonstrate the prediction performance of selected genes. And plot the right panel of Figure 8.
